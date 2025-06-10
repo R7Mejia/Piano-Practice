@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Piano Keys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon" href="imagenes/favicon.ico">
+</head>
+
+<body>
+    <div class="keyboard-container">
+        <div class="white-keys">
+            <div id="tecla-blanca-A" class="white-key">A</div>
+            <div id="tecla-blanca-B" class="white-key">B</div>
+            <div id="tecla-blanca-C" class="white-key">C</div>
+            <div id="tecla-blanca-D" class="white-key">D</div>
+            <div id="tecla-blanca-E" class="white-key">E</div>
+            <div id="tecla-blanca-F" class="white-key">F</div>
+            <div id="tecla-blanca-G" class="white-key">G</div>
+            <div id="tecla-blanca-A-octave" class="white-key">A</div>
+            <div id="tecla-blanca-B-octave" class="white-key">B</div>
+            <div id="tecla-blanca-C-octave" class="white-key">C</div>
+
+        </div>
+
+        <div class="black-keys-overlay">
+            <div id="black-key-1" class="black-key key-bg-black" data-black="1" style="left: 45px;"></div> <!-- A# -->
+            <div id="black-key-2" class="black-key key-bg-black" data-black="2" style="left: 105px;"></div> <!-- C# -->
+            <div id="black-key-3" class="black-key key-bg-black" data-black="3" style="left: 225px;"></div> <!-- F# -->
+            <div id="black-key-4" class="black-key key-bg-black" data-black="4" style="left: 285px;"></div> <!-- G# -->
+            <div id="black-key-5" class="black-key key-bg-black" data-black="5" style="left: 345px;"></div> <!-- A# -->
+            <div id="black-key-6" class="black-key key-bg-black" data-black="6" style="left: 465px;"></div>
+            <!-- C# (octave) -->
+            <div id="black-key-7" class="black-key key-bg-black" data-black="7" style="left: 525px;"></div>
+            <!-- D# (optional) -->
+            <div id="black-key-8" class="black-key key-bg-black" data-black="8" style="left: 585px;"></div>
+            <!-- F# (octave) -->
+        </div>
+    </div>
+
+    <div id="lloronicius">
+        <div class="lloronicius">
+            <img src="imagenes/lloronicius.png" alt="Lloronicius" class="lloronicius-image">
+            <div class="lloronicius-text">Lloronicius</div>
+            <button id="llora">Click me</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="blackKeys.js"></script>
+
+
+</body>
+
+</html>
