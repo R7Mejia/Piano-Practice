@@ -215,8 +215,8 @@
     }
   
     .black-key {
-      width: 24px; /* Make black keys narrower */
-      height: 10rem; /* Adjust height */
+      width: 27px; /* Make black keys narrower */
+      height: 9rem; /* Adjust height */
       border-radius: 0 0 6px 6px;
       /* Re-calculate 'left' positions for black keys based on new white key width */
       /* Example: if white key is 40px, a black key at 45px for desktop might be 25px for mobile */
