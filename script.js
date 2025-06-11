@@ -109,10 +109,13 @@ jKey.addEventListener("click", () => {
 })();
 
 //added an image of Vinicius
-const ViniCry = new Audio("sonidos/Llora.mp3");
-const lloronicius = document.getElementById("llora");
+// When the page loads
+window.addEventListener('DOMContentLoaded', () => {
+    const ViniCry = new Audio("sonidos/Llora.mp3");
+    const lloronicius = document.getElementById("llora");
 
-lloronicius.addEventListener("click", () => {
-    ViniCry.currentTime = 0;
-    ViniCry.play();
-})
+    lloronicius.addEventListener("click", () => {
+        ViniCry.currentTime = 0;
+        ViniCry.play();
+    })
+});
